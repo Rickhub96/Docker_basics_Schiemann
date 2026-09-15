@@ -65,7 +65,10 @@ Das ist definitiv Geschmachssache und hängt von der Umgebung ab. Wenn man mehr 
 
 ### Pi-Hole
 
+#### Zweck 
 Pi-Hole ist ein Softwarepaket, welches über DNS-Einträge Werbung und Schadsoftware im Heimnetzwerk eliminieren soll.
+
+#### Code Snippets 
 
 Für das Erstellen bzw. Starten des Containers mit Änderungen an der config wird der folgende Befehl verwendet:
 ```
@@ -73,6 +76,9 @@ docker compose -f pihole/pihole.yml up -d
 ```
 
 ### Portainer
+Portainer ist ein Softwarepaket, welches die Verwaltung von Containern mit Hilfe einer grafischen Weboberfläche erleichertn soll.
+
+#### Code Snippets 
 
 Für das Erstellen bzw. Starten des Containers mit Änderungen an der config wird der folgende Befehl verwendet:
 ```
@@ -80,6 +86,8 @@ docker compose -f portainer/portainer.yml up -d
 ```
 
 ### Watchtower
+Watchtower ist ein Softwarepaket, welches mit Hilfe von Polling Docker images automatisiert auf dem neusten Stand hält.
+#### Code Snippets 
 
 Für das Erstellen bzw. Starten des Containers mit Änderungen an der config wird der folgende Befehl verwendet:
 ```
@@ -87,6 +95,9 @@ docker compose -f watchtower/watchtower.yml up -d
 ```
 
 ### Nginx
+Nginx ist ein Softwarepaket, welches zur Erstellung von Webservern dient.
+
+#### Code Snippets 
 Für das Erstellen bzw. Starten des Containers mit Änderungen an der config wird der folgende Befehl verwendet:
 ```
 docker compose -f nginx/nginx.yml up -d
